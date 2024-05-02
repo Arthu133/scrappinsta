@@ -9,7 +9,7 @@ username = os.getenv('celtacruel')
 password = os.getenv('Girafa:123')
 
 try:
-    L.login(username, password)
+    L.login(username, password) 
     L.save_session_to_file()
     print(f"Login realizado e sessão salva para o usuário {username}.")
 except instaloader.exceptions.TwoFactorAuthRequiredException:

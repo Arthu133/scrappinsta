@@ -11,13 +11,13 @@ def get_followers(username):
         followers = profile.followers
 
         return followers
-
+ 
     except instaloader.exceptions.ProfileNotExistsException:
         print(f"O perfil @{username} não existe.")
     except Exception as e:
         print(f"Ocorreu um erro ao obter seguidores do @{username}: {e}")
         return None
-
+ 
 # Abrindo o arquivo com os usernames
 filename = 'cristiano_followers.txt'
 
