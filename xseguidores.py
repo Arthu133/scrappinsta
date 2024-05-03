@@ -14,7 +14,7 @@ def get_followers(username):
  
     except instaloader.exceptions.ProfileNotExistsException:
         print(f"O perfil @{username} não existe.")
-    except Exception as e:
+    except Exception as e: 
         print(f"Ocorreu um erro ao obter seguidores do @{username}: {e}")
         return None
  
