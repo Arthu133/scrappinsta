@@ -18,7 +18,7 @@ def get_followers(username):
         print(f"Ocorreu um erro ao obter seguidores do @{username}: {e}")
         return None
  
-# Abrindo o arquivo com os usernames
+# Abrindo o arquivo com os usernames 
 filename = 'cristiano_followers.txt'
 
 # Lista para armazenar os usernames do arquivo
