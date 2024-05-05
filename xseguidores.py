@@ -19,7 +19,7 @@ def get_followers(username):
         return None
  
 # Abrindo o arquivo com os usernames 
-filename = 'cristiano_followers.txt'
+filename = 'cristiano_followers.txt' 
 
 # Lista para armazenar os usernames do arquivo
 usernames = []
