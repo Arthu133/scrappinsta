@@ -18,7 +18,7 @@ from selenium.webdriver.chrome.options import Options
 # os.environ["webdriver.chrome.driver"] = "/usr/local/bin/chromedriver"     # PARA MAC
     #coloque o caminho onde está o chromedriver em sua máquina.
 
-def login(driver, login_url, username, password):
+def login(driver, login_url, username, password):      
     driver.get(login_url)
     try:
         # Aguarde o formulário de login estar presente na página
