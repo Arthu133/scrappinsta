@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.options import Options
 # Verifique se o Selenium está instalado: pip show selenium    
 # Atualize o selenium: pip install --upgrade selenium         
 # Na linha 79 e 81:     
-# os.environ["webdriver.chrome.driver"] = "C:\\webdriver\\chromedriver.exe" # PARA WINDOWS
+# os.environ["webdriver.chrome.driver"] = "C:\\webdriver\\chro    medriver.exe" # PARA WINDOWS
 # os.environ["webdriver.chrome.driver"] = "/usr/local/bin/chromedriver"     # PARA MAC    
     #coloque o caminho onde está o chromedriver em sua máquina. 
    
